@@ -3,12 +3,6 @@
 #+TITLE: Computing Derivatives Numerically
 #+AUTHOR: Alex Paniman, B01-108
 
-#+LATEX_HEADER: \definecolor{fg}{rgb}{0.796078,0.8,0.819608}
-#+LATEX_HEADER: \definecolor{bg}{rgb}{0.109804,0.113725,0.12549}
-
-#+LATEX_HEADER: \pagecolor{bg}
-#+LATEX_HEADER: \color{fg}
-
 #+LATEX_HEADER: \geometry{left=3cm,right=2cm,top=2cm,bottom=2cm}
 #+LATEX_HEADER: \setcounter{equation}{-1}
 
