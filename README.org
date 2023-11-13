@@ -1,0 +1,21 @@
+* Computing Derivatives Numerically
+
+** Theory
+
+We are using a set of methods to approximate derivatives (methods are numbered the same way they are in graphs later):
+
+\[\begin{align*}
+(0) \quad f'(x) &= \frac{f(x + h) - f(x)}{h} \\
+(1) \quad f'(x) &= \frac{f(x) - f(x - h)}{h} \\
+(2) \quad f'(x) &= \frac{f(x + h) - f(x - h)}{2h} \\
+(3) \quad f'(x) &= \frac{4}{3} \frac{f(x + h) - f(x  - h)}{2h} - \frac{1}{3} \frac{f(x + 2h) - f(x - 2h)}{4h} \\
+(4) \quad f'(x) &= \frac{3}{2} \frac{f(x + h) - f(x - h)}{2h} - \frac{3}{5} \frac{f(x + 2h) - f(x - 2h)}{4h} + \frac{1}{10} \frac{f(x + 3h) - f(x - 3h)}{6h}
+\end{align*}\]
+
+** Results
+
+[[file:figures/graph-0.png]]
+[[file:figures/graph-1.png]]
+[[file:figures/graph-2.png]]
+[[file:figures/graph-3.png]]
+[[file:figures/graph-4.png]]
