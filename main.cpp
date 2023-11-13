@@ -101,6 +101,9 @@ int main() {
             y_axis.label = R"($ \left | f'(x_0) - f_\text{numerical}'(x_0) \right | $)";
             x_axis.label = R"($h$)";
 
+            // Choose nicer colors to display on github:
+            plane.bg = "0.11,0.11,0.13";
+            plane.fg = "0.79,0.80,0.82";
             plane.generate_image("figures/graph-" + std::to_string(function_index) + ".png");
         }(), ...);
     }(std::make_index_sequence<std::tuple_size_v<decltype(functions)>>());
