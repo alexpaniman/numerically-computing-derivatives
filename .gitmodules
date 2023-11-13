@@ -1,0 +1,3 @@
+[submodule "cppgfplots"]
+	path = cppgfplots
+	url = https://github.com/alexpaniman/cppgfplots.git

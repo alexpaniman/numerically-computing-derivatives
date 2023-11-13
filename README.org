@@ -14,3 +14,15 @@ We are using a set of methods to numerically approximate function derivatives. H
 [[file:figures/graph-2.png]]
 [[file:figures/graph-3.png]]
 [[file:figures/graph-4.png]]
+* Building and Installing
+
+In order to run numerical differentiator, you need to, first, download it (note that there is a submodule inside this repo, meaning that you should clone recursively), also you should install cppgfplots prerequirement (my plotting library that's inside of that submodule): =glm= and you are ready to run program, which can be done with =make run=. Everything put together would look like (on =Arch Linux=):
+
+#+begin_src sh
+sudo pacman -S glm
+
+git clone --recursive https://github.com/alexpaniman/numerically-computing-derivatives.git
+cd numerically-computing-derivatives
+
+make run
+#+end_src
